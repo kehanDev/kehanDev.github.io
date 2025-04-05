@@ -28,4 +28,3 @@ def show(*, block=None):
 	print(f"data:image/png;base64,{img_str}")
 
 matplotlib.pyplot.show = show`),self.result=await self.pyodide.runPythonAsync(o),self.result=L(self.result),console.log("Python result:",self.result)}catch(a){self.stderr=a.toString()}self.postMessage({id:t,result:self.result,stdout:self.stdout,stderr:self.stderr})};function L(e){try{if(e==null)return null;if(typeof e=="string"||typeof e=="number"||typeof e=="boolean")return e;if(typeof e=="bigint")return e.toString();if(Array.isArray(e))return e.map(t=>L(t));if(typeof e.toJs=="function")return L(e.toJs());if(typeof e=="object"){const t={};for(const o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=L(e[o]));return t}return JSON.stringify(e)}catch(t){return`[processResult error]: ${t.message||t.toString()}`}}});export default Se();
-//# sourceMappingURL=pyodide.worker-CtprJZpD.js.map
