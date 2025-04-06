@@ -1,6 +1,6 @@
 {
-  "name": "Open WebUI",
-  "short_name": "WebUI",
+  "name": "Meeting Summary",
+  "short_name": "Meeting Summary",
   "icons": [
     {
       "src": "/static/web-app-manifest-192x192.png",
