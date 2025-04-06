@@ -1,6 +1,6 @@
 {
-  "name": "Meeting Summary",
-  "short_name": "Meeting Summary",
+  "name": "会议记录助手",
+  "short_name": "会议记录助手",
   "icons": [
     {
       "src": "/static/web-app-manifest-192x192.png",
